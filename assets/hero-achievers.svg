@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="640" viewBox="0 0 840 640" role="img" aria-labelledby="title desc">
+  <title id="title">Students celebrating results</title>
+  <desc id="desc">A stylized coaching classroom scene with students, rank cards and a success board.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b2f6f"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="840" height="640" rx="40" fill="url(#bg)"/>
+  <circle cx="680" cy="104" r="124" fill="#2563eb" opacity=".28"/>
+  <circle cx="122" cy="536" r="168" fill="#0ea5e9" opacity=".22"/>
+  <rect x="86" y="84" width="668" height="396" rx="28" fill="#f8fafc"/>
+  <rect x="118" y="118" width="604" height="78" rx="18" fill="#0f172a"/>
+  <text x="146" y="168" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#facc15">ACHIEVERS RESULT BOARD</text>
+  <rect x="130" y="234" width="172" height="150" rx="22" fill="#dbeafe"/>
+  <rect x="334" y="234" width="172" height="150" rx="22" fill="#fee2e2"/>
+  <rect x="538" y="234" width="172" height="150" rx="22" fill="#dcfce7"/>
+  <text x="166" y="290" font-family="Arial, sans-serif" font-size="46" font-weight="900" fill="#1d4ed8">AIR 48</text>
+  <text x="372" y="290" font-family="Arial, sans-serif" font-size="46" font-weight="900" fill="#dc2626">680</text>
+  <text x="566" y="290" font-family="Arial, sans-serif" font-size="46" font-weight="900" fill="#15803d">97%</text>
+  <text x="166" y="330" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">JEE</text>
+  <text x="372" y="330" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">NEET</text>
+  <text x="566" y="330" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Boards</text>
+  <g transform="translate(170 430)">
+    <circle cx="48" cy="38" r="38" fill="#f8c7a2"/>
+    <path d="M14 126c6-34 22-52 34-52s34 18 40 52z" fill="#1d4ed8"/>
+    <circle cx="166" cy="38" r="38" fill="#e8b892"/>
+    <path d="M132 126c6-34 22-52 34-52s34 18 40 52z" fill="#ef4444"/>
+    <circle cx="284" cy="38" r="38" fill="#d9a376"/>
+    <path d="M250 126c6-34 22-52 34-52s34 18 40 52z" fill="#16a34a"/>
+    <circle cx="402" cy="38" r="38" fill="#f0bd8f"/>
+    <path d="M368 126c6-34 22-52 34-52s34 18 40 52z" fill="#f59e0b"/>
+  </g>
+  <rect x="514" y="424" width="228" height="94" rx="24" fill="url(#gold)"/>
+  <text x="544" y="466" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#111827">2026 BATCHES</text>
+  <text x="544" y="498" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#111827">Admissions Open</text>
+</svg>

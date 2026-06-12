@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results | Achievers Coaching Center</title>
+    <meta name="description" content="View Achievers Coaching Center toppers and student success stories across JEE, NEET and foundation programs." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="results">
+    <header class="site-header">
+      <div class="top-strip"><a href="tel:+919876543210">Call +91 98765 43210</a><span>Admissions open for 2026 batches</span><a href="contact.html#demo">Request a callback</a></div>
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="index.html"><span class="brand-mark">AC</span><span><strong>Achievers</strong><small>Coaching Center</small></span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+        <div class="nav-links">
+          <div class="nav-item">
+            <button type="button">Courses</button>
+            <div class="mega-menu">
+              <div>
+                <strong>Engineering</strong>
+                <a href="courses.html#jee-main">JEE Main</a>
+                <a href="courses.html#jee-advanced">JEE Advanced</a>
+                <a href="courses.html#crash-courses">Crash Courses</a>
+              </div>
+              <div>
+                <strong>Medical</strong>
+                <a href="courses.html#neet">NEET UG</a>
+                <a href="courses.html#repeaters">Repeater Program</a>
+                <a href="courses.html#test-series">Test Series</a>
+              </div>
+              <div>
+                <strong>School</strong>
+                <a href="courses.html#foundation">Foundation 6-10</a>
+                <a href="courses.html#boards">Board Excellence</a>
+                <a href="courses.html#olympiad">Olympiad Prep</a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item active-section">
+            <button type="button">Results</button>
+            <div class="mega-menu compact">
+              <div>
+                <strong>Achievements</strong>
+                <a href="results.html#stars">JEE Selections</a>
+                <a href="results.html#stars">NEET Selections</a>
+                <a href="results.html#stars">School Toppers</a>
+              </div>
+              <div>
+                <strong>Student Stories</strong>
+                <a href="results.html#stars">Meet our Stars</a>
+                <a href="results.html#testimonials">Parent Reviews</a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <button type="button">Study Materials</button>
+            <div class="mega-menu compact">
+              <div>
+                <strong>Resources</strong>
+                <a href="courses.html#test-series">Mock Tests</a>
+                <a href="courses.html#boards">Board Notes</a>
+                <a href="courses.html#foundation">Foundation Practice</a>
+              </div>
+              <div>
+                <strong>Support</strong>
+                <a href="contact.html#demo">Doubt Session</a>
+                <a href="contact.html#demo">Mentor Call</a>
+              </div>
+            </div>
+          </div>
+          <a href="scholarships.html">Scholarships</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-actions"><a class="ghost-button" href="contact.html#demo">Book demo</a><a class="primary-button" href="https://wa.me/919876543210">WhatsApp</a></div>
+      </nav>
+      <div class="mobile-menu" id="mobile-menu" hidden><a href="index.html">Home</a><a href="courses.html">Courses</a><a href="results.html">Results</a><a href="scholarships.html">Scholarships</a><a href="contact.html">Contact</a></div>
+    </header>
+
+    <main>
+      <section class="page-hero section-dark">
+        <div class="section-inner page-hero-grid">
+          <div>
+            <p class="eyebrow">Results</p>
+            <h1>Student outcomes built through consistent preparation.</h1>
+            <p>Track recent achievers, category-wise toppers and parent feedback from Achievers classroom programs.</p>
+          </div>
+          <img src="assets/result-board.svg" alt="Result board showing competitive exam achievements" />
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="Result statistics">
+        <div class="section-inner stats-grid">
+          <div><strong data-count="320">0</strong><span>2025 selections</span></div>
+          <div><strong data-count="42">0</strong><span>top city ranks</span></div>
+          <div><strong data-count="88">0</strong><span>students above 90%</span></div>
+          <div><strong data-count="14">0</strong><span>school toppers</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="stars">
+        <div class="section-inner section-heading center">
+          <p class="eyebrow">Meet our stars</p>
+          <h2>Filter achievements by exam category.</h2>
+        </div>
+        <div class="section-inner">
+          <div class="filter-tabs" data-filter-group="stars">
+            <button class="active" type="button" data-filter="all">All</button>
+            <button type="button" data-filter="jee">JEE</button>
+            <button type="button" data-filter="neet">NEET</button>
+            <button type="button" data-filter="foundation">Classes 6-10</button>
+          </div>
+          <div class="stars-grid" data-render="stars"></div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="testimonials">
+        <div class="section-inner section-heading center">
+          <p class="eyebrow">Reviews</p>
+          <h2>Parents value transparent progress tracking.</h2>
+        </div>
+        <div class="section-inner testimonial-shell">
+          <button class="slider-button" type="button" data-testimonial-prev aria-label="Previous testimonial">&lt;</button>
+          <div class="testimonial-window" data-render="testimonials" aria-live="polite"></div>
+          <button class="slider-button" type="button" data-testimonial-next aria-label="Next testimonial">&gt;</button>
+        </div>
+        <div class="testimonial-dots" data-testimonial-dots></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-inner footer-grid">
+        <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">AC</span><span><strong>Achievers</strong><small>Coaching Center</small></span></a><p>Structured coaching for JEE, NEET, foundation and board excellence.</p></div>
+        <div><h3>Courses</h3><a href="courses.html#jee-main">JEE Main</a><a href="courses.html#neet">NEET UG</a><a href="courses.html#foundation">Foundation</a><a href="courses.html#boards">Boards</a></div>
+        <div><h3>Quick links</h3><a href="results.html">Results</a><a href="scholarships.html">Scholarships</a><a href="contact.html#demo">Book demo</a><a href="contact.html">Contact</a></div>
+        <div><h3>Contact</h3><a href="tel:+919876543210">+91 98765 43210</a><a href="mailto:info@achievers.example">info@achievers.example</a><span>2nd Floor, Learning Plaza, Your City</span></div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 Achievers Coaching Center. All rights reserved.</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
